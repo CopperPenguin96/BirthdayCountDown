@@ -98,9 +98,9 @@ Partial Class Form1
         '
         Me.lblHalfSeconds.BackColor = System.Drawing.Color.Transparent
         Me.lblHalfSeconds.ForeColor = System.Drawing.Color.White
-        Me.lblHalfSeconds.Location = New System.Drawing.Point(345, 146)
+        Me.lblHalfSeconds.Location = New System.Drawing.Point(340, 146)
         Me.lblHalfSeconds.Name = "lblHalfSeconds"
-        Me.lblHalfSeconds.Size = New System.Drawing.Size(100, 23)
+        Me.lblHalfSeconds.Size = New System.Drawing.Size(110, 23)
         Me.lblHalfSeconds.TabIndex = 12
         Me.lblHalfSeconds.Text = "{HalfSeconds}"
         Me.lblHalfSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -130,6 +130,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblHeader)
         Me.Controls.Add(Me.lblHalfSeconds)
         Me.Controls.Add(Me.picFireworks)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Birthday Countdown"
         CType(Me.picFireworks, System.ComponentModel.ISupportInitialize).EndInit()
